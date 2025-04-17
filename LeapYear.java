@@ -10,5 +10,9 @@ class LeapYear {
     IsLeapYear = IsLeapYear || (year % 400 == 0);  // or operator
 
     System.out.println(IsLeapYear);
+
+    double result = 10.0/3; // at least one of the numbers has to be a decimal to get a decimal result
+
+    System.out.println("result = " + result);  // practicing with numbers
   }
 }
