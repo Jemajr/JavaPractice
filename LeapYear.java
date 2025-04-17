@@ -1,9 +1,14 @@
 class LeapYear {
   public static void main (String[] args) {
-    boolean IsleapYear;
+    boolean IsLeapYear;
     int year = Integer.parseInt(args[0]);
 
-    IsleapYear = (year % 100 == 0);
-    System.out.println(IsleapYear);
+    IsLeapYear = (year % 4 == 0);
+
+    IsLeapYear = IsLeapYear && (year % 100 != 0);  // and operator
+
+    IsLeapYear = IsLeapYear || (year % 400 == 0);  // or operator
+
+    System.out.println(IsLeapYear);
   }
 }
