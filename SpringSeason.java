@@ -2,8 +2,6 @@
 
 class SpringSeason {
   public static void main (String[] args) {
-    // march to june is 3 -> 6
-    // march and may = 31 days; april and june = 30 days;
 
     int mar = 3;
     int apr = 4;
@@ -16,7 +14,7 @@ class SpringSeason {
     int day = Integer.parseInt(args[1]);
 
     if ((month == mar) || (month == may)) {
-      if ((day >= 1) || (day < 31)) {
+      if ((day >= 1) || (day < 31)) { // limit for days in march and may
         res = true;
       } else {
         res = false;
@@ -25,7 +23,7 @@ class SpringSeason {
     } 
     
     else if ((month == apr) || (month == jun)) {
-      if ((day >= 1) || (day < 30)) {
+      if ((day >= 1) || (day < 30)) { // limit for days in april and june
         res = true;
       } else {
         res = false;
