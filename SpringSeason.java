@@ -6,13 +6,9 @@ class SpringSeason {
     // march and may = 31 days; april and june = 30 days;
 
     int mar = 3;
-    int mar_= 31;
     int apr = 4;
-    int apr_d = 30;
     int may = 5;
-    int may_d = 31;
     int jun = 6;
-    int jun_d = 30;
 
     boolean res = true;
 
