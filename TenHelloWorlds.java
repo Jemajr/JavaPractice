@@ -12,5 +12,14 @@ public class TenHelloWorlds {
             System.out.println(i + "th Hello world");
             i = i + 1;
         }
+
+    System.out.println("");
+    System.out.println("using a for loop");
+    System.out.println("");
+
+
+    for (i=1; i<10; i++){
+      System.out.println(i + "th Hello world");
+    }
   }
 }
