@@ -10,7 +10,7 @@ class FivePerLine {
     
     int counter = 1;
 
-    for (int i = 1000; i < 2000; i++) {
+    for (int i = 1000; i < 2001; i++) {
       if (counter % 5 != 0){  // trying to use this to print only 5 items on a line
         System.out.print(i + " ");  // added a space to separate numbers
         counter++;
