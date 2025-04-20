@@ -1,5 +1,7 @@
 class FivePerLine {
   public static void main (String[] args){
-    /// we are here
+    /// one for loop and one if statement
+    /// prints the integers from 1000 to 2000
+    /// printing five per line
   }
 }
