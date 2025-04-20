@@ -13,6 +13,8 @@ class FivePerLine {
     for (int i = 1000; i < 2000; i++) {
       if (counter % 5 != 0){
         System.out.print(i + " ");  // added a space to separate numbers
+      } else {
+        System.out.println(i);
       }
     }
   }
