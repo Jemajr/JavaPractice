@@ -7,7 +7,7 @@ class Median {
     double fourth = Integer.parseInt(args[3]);
     double fifth = Integer.parseInt(args[4]);
 
-    // how do I find the 3rd largest value?
+    double[] nums = {first, second, third, fourth, fifth};
     
   }
 }
