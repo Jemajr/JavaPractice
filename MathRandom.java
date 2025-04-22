@@ -13,5 +13,8 @@ class MathRandom {
 
     double num4 = Math.random() * 100;
     System.out.println(num4);
+
+    int num5 = (int) (Math.random() * 10);
+    System.out.println(num5);
   }
 }
