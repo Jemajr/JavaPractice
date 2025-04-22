@@ -7,5 +7,11 @@ class MathRandom {
 
     double num2 = Math.random();
     System.out.println(num2);
+
+    double num3 = Math.random() * 10;
+    System.out.println(num3);
+
+    double num4 = Math.random() * 100;
+    System.out.println(num4);
   }
 }
