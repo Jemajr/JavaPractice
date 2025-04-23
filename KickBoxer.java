@@ -8,6 +8,8 @@ public class KickBoxer {
 
     int w = Integer.parseInt(args[0]);
 
+    // A better way would be to use a for-loop than multiple if-else statements
+
     if (w < 0) {
       System.out.println("Invalid Weight"); // edge case
 
