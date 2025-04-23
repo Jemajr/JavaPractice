@@ -10,6 +10,43 @@ public class KickBoxer {
 
     if (w < 0) {
       System.out.println("Invalid Weight"); // edge case
-    } else if (w > 209)
+
+    } else if (w > range[16]) {
+      System.out.println(category[17]);
+    } else if (w > range[15]) {
+      System.out.println(category[16]);
+    } else if (w > range[14]) {
+      System.out.println(category[15]);
+    } else if (w > range[13]) {
+      System.out.println(category[14]);
+    } else if (w > range[12]) {
+      System.out.println(category[13]);
+    } else if (w > range[11]) {
+      System.out.println(category[12]);
+    } else if (w > range[10]) {
+      System.out.println(category[11]);
+    } else if (w > range[9]) {
+      System.out.println(category[10]);
+    } else if (w > range[8]) {
+      System.out.println(category[9]);
+    } else if (w > range[7]) {
+      System.out.println(category[8]);
+    } else if (w > range[6]) {
+      System.out.println(category[7]);
+    } else if (w > range[5]) {
+      System.out.println(category[6]);
+    } else if (w > range[4]) {
+      System.out.println(category[5]);
+    } else if (w > range[3]) {
+      System.out.println(category[4]);
+    } else if (w > range[2]) {
+      System.out.println(category[3]);
+    } else if (w > range[1]) {
+      System.out.println(category[2]);
+    } else if (w > range[0]) {
+      System.out.println(category[1]);
+    } else {
+      System.out.println(category[0]);
+    }
   }
 }
