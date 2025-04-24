@@ -10,7 +10,7 @@ class TwentQuestions {
 
     while (guess != answer) {
 
-      guess = 
+      guess = Integer.parseInt(cin.nextLine());  // reading user input
 
       if (guess > answer) {
         System.out.println("Too low");
@@ -18,6 +18,7 @@ class TwentQuestions {
         System.out.println("too low");
       } else {
         System.out.println("You win!!");
+        cin.close();
       }
     }
   }
