@@ -5,7 +5,7 @@ class TwentQuestions {
     Scanner cin = new Scanner(System.in);  // creating a scanner object
 
     // this is a guessing game
-    int answer = 1 + (int) (Math.random()*1000);
+    int answer = 1 + (int) (Math.random()*100);
     int guess = 0;
 
     System.out.print("I'm thinking of a number ");  // inform the user it's a game
