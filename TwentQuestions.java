@@ -19,7 +19,7 @@ class TwentQuestions {
       if (guess > answer) {
         System.out.println("Too high");
       } else if (guess < answer) {
-        System.out.println("Too high");
+        System.out.println("Too low");
       } else {
         System.out.println("You win!!");
         cin.close();
