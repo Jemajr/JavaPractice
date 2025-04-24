@@ -8,11 +8,12 @@ class TwentQuestions {
     int answer = 1 + (int) (Math.random()*1000);
     int guess = 0;
 
+    System.out.print("I'm thinking of a number ");  // inform the user it's a game
+    System.out.println("between 1 and 100");
+
     while (guess != answer) {
 
-      System.out.print("I'm thinking of a number ");  // inform the user it's a game
-      System.out.println("between 1 and 100");
-
+      System.out.println("What's your guess");
       guess = Integer.parseInt(cin.nextLine());  // reading user input
 
       if (guess > answer) {
