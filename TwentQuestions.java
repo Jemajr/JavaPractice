@@ -5,17 +5,20 @@ class TwentQuestions {
     Scanner cin = new Scanner(System.in);  // creating a scanner object
 
     // this is a guessing game
-    int answer = (int) (Math.random()*1000);
+    int answer = 1 + (int) (Math.random()*1000);
     int guess = 0;
 
     while (guess != answer) {
 
+      System.out.print("I'm thinking of a number ");  // inform the user it's a game
+      System.out.println("between 1 and 100");
+
       guess = Integer.parseInt(cin.nextLine());  // reading user input
 
       if (guess > answer) {
-        System.out.println("Too low");
+        System.out.println("Too high");
       } else if (guess < answer) {
-        System.out.println("too low");
+        System.out.println("Too high");
       } else {
         System.out.println("You win!!");
         cin.close();
