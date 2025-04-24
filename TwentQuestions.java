@@ -22,7 +22,7 @@ class TwentQuestions {
         System.out.println("Too low");
       } else {
         System.out.println("You win!!");
-        cin.close();
+        cin.close(); // close the scanner
       }
     }
   }
